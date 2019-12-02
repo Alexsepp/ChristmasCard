@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+html,body{
+        color:#fff;
+        background: #333;
+        overflow:hidden;
+}
+.landing{
+    position:relative;
+    height: 100vh;
+    background-image: url("../img/pexels-photo-755380.jpeg");
+    background-size:cover;
+    background-position: center;
+}
+.landing-inner{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    /*padding-top: ;*/
+    background:  rgba(83, 15, 27, 0.459);
+}
+.landing h1{
+    font-size: 5rem;
+    font-family: 'Mountains of Christmas', cursive;
+}
+.countdown{
+    font-size:3rem;
+    display:flex;
+    justify-content: center;
+    margin-top:3rem;
+    align-items: center;
+    text-align: center;
+}
+.countdown div{
+    font-size:1.6rem;
+    padding:0.6rem;
+    border:1px solid #fff;
+    border-radius: 5px;
+    margin:5px;
+    opacity:0.7;
+    background: rgba(83, 15, 27, 0.459);
+}
+.countdown span{
+    font-size:1.6rem;
+}
